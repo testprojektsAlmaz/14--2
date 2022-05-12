@@ -1,4 +1,4 @@
-
+// Урок №1.
 
 // Переменные
 
@@ -9,7 +9,7 @@ const b = 20 // number
 
 const bool = true; // boolean
 
-const bool2 = false; // 
+const bool2 = false; //
 
 console.log(typeof a)
 */   /*
@@ -45,11 +45,11 @@ const arr2 = [
 ]
 console.log(arr2[2].key)  */
 
-
+/*
 const name = prompt("Как вас зовут?");
 
 console.log("Hello " + name)
-
+*/
 
 //const name = alert("Вам запрещено")
 /*
@@ -84,6 +84,176 @@ console.log(c)
 
 
 
+//Урок №2.
+
+
+/*
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,];
+
+console.log(arr[9]);
+
+let obj = {
+    username: "Jone",
+    followers: [
+        {
+            username: "Alex"
+        },
+        {
+            username: "Jone",
+            followers: [
+                {
+                    username: "Jack"
+                },
+                {
+                    username: "Jack2"
+                },
+                {
+                    username: "Jack"
+                }
+            ]
+        }
+
+    ]
+}
+
+console.log(obj.followers[1].followers[1].username);     */
+/*
+const array = [
+
+    {
+        username: "Jack",
+        full_name: "Barbarossa"
+    },
+    {
+        username: "Jack",
+        full_name: "Barbarossa"
+    },
+
+    {
+        username: "Jack",
+        full_name: "Barbarossa"
+    },
+    {
+        username: "Jack",
+        full_name: "Barbarossa"
+    },
+
+    {
+        username: "Jack",
+        full_name: "Barbarossa"
+    },
+
+    {
+        username: "Jack",
+        full_name: "Barbarossa"
+    },
+
+]
+
+
+let i = 0; // инкриментация i = i + 1
+i++
+i++
+i++
+//console.log(i);
+
+//for (let i = 0; i < array.length; i++) {
+//    console.log(array[i]);
+//} //индексы для вывода элементов.
+
+
+//for (let user of array) {
+//  console.log(user);
+//}
+*/
+
+/*
+const obj = {
+
+    key1: "h1",
+    key2: "h2",
+    key3: "h3",
+    key4: "h4",
+    key5: "h5",
+    key6: "h6",
+    key7: "h7",
+    key8: "h8",
+    key9: "h9",
+    key10: "h10",
+
+
+}*/
+//console.log(obj.key2);
+/*
+for (let key in obj) {
+    //  console.log(obj)
+    console.log(obj[key])
+
+} */
+/*
+let i = 0;
+while (i < 5) {
+    console.log("Hello")
+     // Консоль будет бесконечно выводить результат, остановить можно только перезагрузкой.
+}
+
+console.log(i);  */
+
+
+
+//Методы
+
+
+/*
+const users = [
+    {
+        username: "Apollon",
+        power: 1000,
+        speed: 600
+    },
+
+    {
+        username: "Poseidon",
+        power: 2000,
+        speed: 700
+    },
+    {
+        username: "Afina",
+        power: 3000,
+        speed: 400
+    },
+
+    {
+        username: "Zeus",
+        power: 5000,
+        speed: 900
+
+    },
+
+    {
+        username: "Aid",
+        power: 7000,
+        speed: 800
+    },
+]
+
+const filteredUsers = users.filter(user => user.power > 3000)
+console.log(filteredUsers); */
+
+
+
+
+/*
+const filteredUsers = users.filter(user => user.salary > 500)
+console.log(filteredUsers); */
+
+/*
+for (let user of users) {
+    if (user.salary > 500) {
+        console.log(user)
+    }
+
+} */
 
 
 

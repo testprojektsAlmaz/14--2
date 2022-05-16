@@ -259,6 +259,55 @@ for (let user of users) {
 
 
 
+// Урок №3
+
+
+
+
+/*
+function sayHello() {
+    console.log("Hello");
+}
+sayHello();*/
+
+/*
+function getFullName(user , age, user2) {
+
+
+     if (age < 18) {
+    console.log("CLOSE")
+
+}
+   else {
+ console.log(user.last_name, user2.last_name + " " + "OPEN")
+}
+
+}
+ 
+    const user = {
+
+        first_name: "Belek",
+
+        last_name: "Belekov"
+    }
+
+
+
+const user2 = {
+ 
+    first_name: "Nurlan",
+ 
+    last_name: "kaumov"
+ 
+ 
+ 
+}
+
+
+getFullName(user);*/
+
+
+
 
 
 

@@ -305,28 +305,159 @@ const user2 = {
 
 
 getFullName(user);*/
+/*
+const user = {
+
+    first_name: "Belek",
+
+    last_name: "Belekov"
+}
+
+const anonum = function (user) {
+    console.log(user)
+}
+anonum(user);
+*/
+/*
+function numbers(number1, number2) {
+    if(number1 > number2) {
+        console.log("Первое число больше!")
+    } else if(number1 < number2){
+        console.log("Второе число больше!")
+    }*/
+/* else{
+     console.log("Они равны!")
+ }
+}*/
+/*
+const number = {
+    number1: 5,
+    number2: 2
+} */
+
+// numbers( 3, 6 ) 
+
+
+/*
+function numbers(number1, number2) {
+    if(number1 < number2) {
+        console.log(number1)
+    } else if(number1 > number2) {
+        console.log(number2)
+    }
+} 
+
+const number = {
+    number1: 15,
+    number2: 17
+} 
+
+
+numbers(number.number1, number.number2); */
+
+
+// Вычисление длины массива.
+
+/*
+function twoMass(arr1, arr2) {
+    console.log(arr1, arr2)
+    if(arr1.length > arr2.length){
+        console.log(arr1 > arr2)
+    } else if(arr1.length < arr2.length){
+        console.log(arr1 < arr2)
+    }else {
+        console.log( "===" )
+    }
+}
+
+    const arr1 = [12123, 123, 1232, 33232]
+
+    const arr2 = [33232, 43, 34]
+
+    twoMass(arr1, arr2)  */
 
 
 
 
 
+// Урок 4. 
+
+
+/*const blocks = document.getElementsByClassName('block');
+console.log(blocks)
+
+const block3 = document.getElementById('block3');*/
+
+//block3.className = "changedClass"
+
+//block3.classList.add("changedCl")
+
+//block3.classList.remove("this")
+
+
+//console.log(block3.classList)
+
+//console.log(document)
+
+/*
+
+block3.onclick = () => {
+    block3.classList.toggle("active")
+
+}
+
+const block = document.querySelectorAll(".block")
+
+console.log(block)
+
+*/
+
+
+/*
+const button = document.getElementById("button");
+
+const input = document.getElementById("input");
+
+function createNewDiv() {
+
+    const div = document.createElement('div')
+
+    const deleteButton = document.createElement('button')
+    deleteButton.innerText = "delete"
+    deleteButton.onclick = (event) => {
+        event.path[1].remove()
+    }
+
+    div.setAttribute('class', 'block')
+    div.innerText = input.value
+    div.append(deleteButton)
+    document.body.append(div)
+
+        input.value = " "
+}
+
+button.onclick = createNewDiv;*/
 
 
 
 
+/*
+button.onclick = (event) => {
+    
+    console.log(event)
+
+    console.log("Clicked")
+
+}
 
 
+input.onchange = (event) => {
+    
+    console.log(event)
 
+    console.log(event.target)
 
+    console.log(event.target.value)
 
-
-
-
-
-
-
-
-
-
-
+}  */
 

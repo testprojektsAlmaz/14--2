@@ -1,0 +1,64 @@
+html {
+    background-image: url(pexels-thisisengineering-3861958.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 1.5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    max-width: 70%;
+    color: aqua;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#container {
+    height: 200px;
+    width: 500px;
+    border: 10px solid rgb(123, 222, 156);
+    opacity: 0.8;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(24, 10, 187);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(6, 6, 6);
+}
+
+#number {
+    color: black;
+    height: 25px;
+    width: 250px;
+    border: 1px solid rgb(9, 9, 9);
+    font-size: 25px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(234, 238, 240);
+}
+
+#increment {
+    font-size: 20px;
+    height: 25px;
+    width: 100px;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+
+#decrement {
+    font-size: 20px;
+    height: 25px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+

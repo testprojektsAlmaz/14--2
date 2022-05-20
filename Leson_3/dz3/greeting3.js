@@ -1,3 +1,6 @@
+/*
+       // Домашка dz3     
+
 function isFizz(n) {
     if (n % 3 === 0) {
         return true;
@@ -34,3 +37,30 @@ for (let i = 1; i < 100; i++) {
             console.log(i);
     }
 }
+
+*/
+
+        // Задание 1 dz3
+
+/*
+function numbers(number1, number2) {
+    if(number1 < number2) {
+        console.log(number1)
+    } else if(number1 > number2) {
+        console.log(number2)
+    }
+} 
+
+const number = {
+    number1: 15,
+    number2: 17
+} 
+
+
+numbers(number.number1, number.number2); */
+
+
+
+// Задание 2 dz3
+
+

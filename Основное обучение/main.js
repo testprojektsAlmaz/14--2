@@ -1,4 +1,4 @@
-// Урок №1.
+// Урок № 1.
 
 // Переменные
 
@@ -84,7 +84,7 @@ console.log(c)
 
 
 
-//Урок №2.
+//Урок № 2.
 
 
 /*
@@ -259,7 +259,7 @@ for (let user of users) {
 
 
 
-// Урок №3
+// Урок № 3.
 
 
 
@@ -380,7 +380,7 @@ function twoMass(arr1, arr2) {
 
 
 
-// Урок 4. 
+// Урок № 4. 
 
 
 /*const blocks = document.getElementsByClassName('block');
@@ -460,4 +460,233 @@ input.onchange = (event) => {
     console.log(event.target.value)
 
 }  */
+
+
+
+// Урок № 5.
+
+/*
+const list = [];
+
+const addButton = document.getElementById('button');
+const input = document.getElementById('input');
+
+
+function render() {
+    const mainDiv = document.createElement('div');
+    mainDiv.setAttribute('class', 'list');
+
+    for (let i = 0; i < list.length; i++) {
+        const div = document.createElement('div');
+        div.setAttribute('class', 'todoBlock');
+        const p = document.createElement('p');
+        p.innerText = list[i].text;
+        div.append(p);
+
+        const buttons = document.createElement('div');
+        buttons.setAttribute('class', 'actions');
+        const changeButton = document.createElement('button');
+        changeButton.innerText = "change";
+
+
+        
+        const deleteButton = document.createElement('button');
+        deleteButton.setAttribute('class', 'delete');
+        deleteButton.innerText = "delete";
+      
+
+
+
+
+        buttons.append(changeButton, deleteButton);
+        div.append(buttons);
+        mainDiv.append(div);
+
+    }
+
+
+
+
+    const form = document.querySelector('.form');
+
+    document.querySelector('.list').remove();
+    
+    form.append(mainDiv);
+}
+
+
+
+addButton.onclick = function () {
+    const obj = {
+        id: list.length + 1,
+        text: input.value
+    };
+    list.push(obj);
+    console.log(list);
+    render();
+}; */
+
+
+    
+
+
+
+
+
+
+
+/*
+const list = [];
+
+const addButton = document.getElementById('button')
+const input = document.getElementById('input')
+
+
+function render() {
+    const mainDiv = document.createElement('div');
+    mainDiv.setAttribute('class', 'list')
+
+    for (let i = 0; i < list.length; i++) {
+        const div = document.createElement("div");
+        div.setAttribute('class', 'todoBlock');
+        const p = document.createElement('p');
+        p.innerText = list[i].text;
+        div.append(p)
+
+        const buttons = document.createElement('div');
+        buttons.setAttribute('class', 'actions');
+        const changeButton = document.createElement("button");
+        changeButton.innerText = "change";
+
+        const deleteButton = document.createElement('button');
+        deleteButton.setAttribute("class", 'delete');
+        deleteButton.innerText = "delete";
+        buttons.append(changeButton, deleteButton);
+        div.append(buttons);
+        mainDiv.append(div)
+    }
+    const form = document.querySelector('.form');
+
+    form.append(mainDiv)
+}
+
+addButton.onclick = function () {
+    const obj = {
+        id: list.length + 1,
+        text: input.value
+    }
+    list.push(obj)
+    console.log(list)
+    render();
+}; */
+
+
+
+// Урок № 6.
+
+//console.log(a)
+//const a = "Hello"
+
+//let b = 10
+//es5
+//console.log(b)
+
+//var c = "ghghghghghg"
+
+ //c = "adf"
+
+//console.log(c)
+
+
+// es6, string expression-интерполляция строк.
+
+
+
+
+//const last_name = "Barbaro";
+//const first_name = "Jack";
+
+//console.log(first_name,last_name);
+
+//console.log(first_name + ' ' + last_name);
+
+//console.log(`full Name: ${first_name} $//{last_name}`);
+
+
+//const getFullName = (user) => {
+   // return"First Name: " + user.first_name + '\n' + "Last Name: " + user.last_name
+
+   // return `First Name: ${user.first_name} //\n Last Name: ${user.last_name}`
+//}
+ //const user = {
+   // first_name: "Atay",
+    //last_name: "Zaplach" 
+ //}
+
+ //console.log(getFullName(user));
+
+
+ // Spread operator
+
+
+ //const mass = [1,2,3,4,5]
+
+ //const mass2 = [...mass]
+
+ //for(let i = 0; i < mass.length; i++){
+     //mass2.push(mass[i])
+ //}
+
+//console.log(mass2);
+
+//const obj =  {
+    //username: "Beka",
+
+    //last_name: "Beckmamatov",
+
+    //age: 16,
+
+    //full_name: "Beka Beckmamatov" 
+
+//}
+
+//const obj2 = [{...obj}]
+
+//console.log(obj2)
+
+
+// Деструктуризация
+
+
+//const props = {
+   // onSubmit: () => {
+        //console.log("Submit")
+   // },
+    //data: [
+        //{
+            //key: "value"
+        //},
+        //{
+           // key2: "value2"
+       // },
+        //{
+           // key3: "value3"
+        //}
+    //]
+
+//}
+
+//console.log(props.data[1].key2)
+
+
+
+//const  {data, onSubmit} = props;
+
+//console.log(props) ;
+
+//onSubmit();
+
+
+
+
 

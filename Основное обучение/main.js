@@ -582,7 +582,11 @@ addButton.onclick = function () {
 
 
 
+
+
 // Урок № 6.
+
+
 
 //console.log(a)
 //const a = "Hello"
@@ -687,6 +691,131 @@ addButton.onclick = function () {
 //onSubmit();
 
 
+
+
+// Урок № 7.
+
+
+
+/*
+class Dog{
+    constructor(weight, height, color){
+        this.weight = weight;
+        this.height = height;
+        this.color = color;
+
+    }
+}
+
+const rex = new Dog (
+     10,
+     50,
+     "black"
+)
+
+console.log(rex);
+
+
+const sharik = new Dog (
+    5,
+    25,
+    'pink'
+)
+
+console.log(sharik);*/
+
+class Animal{
+    constructor(type, gender, color, voiceText){
+    this.type = type;
+    this.gender = gender;
+    this.color = color;
+    this.voiceText = voiceText;
+    }
+
+    voice(){
+        //console.log(this.voiceText)
+    }
+}
+
+class bear extends Animal{
+    constructor(type, gender, color, voiceText, weight, height){
+        super(type, gender, color, voiceText)
+        this.weight = weight;
+        this.height = height;
+    }
+    purpose(){
+        console.log(`bear weight: ${this.weight}\nbear color: ${this.color}\nbear voice: ${this.voiceText}`)
+    } 
+}
+
+const Misha = new bear(
+    "waild",
+    "male",
+    "white",
+    "aaaaaaa",
+    "2",
+    "300"
+
+)
+
+const Beka = new bear(
+    "pet",
+    "male",
+    "pink",
+    "Auff",
+    2,
+    80
+)
+
+//Beka.purpose()
+
+
+
+
+
+//Misha.purpose();
+
+//console.log(Misha);
+
+
+class Cat extends Animal{
+    constructor(type, gender, color, voiceText, weight, height, earlength, speed){
+        super(type, gender, color, voiceText)
+        this.weight = weight;
+        this.height = height;
+        this.earlength = earlength;
+        this.speed = speed;
+        
+
+    }
+}
+
+const Tom = new Cat (
+
+    "Pet",
+    "Male",
+    "Black",
+    "MYau MYau",
+    "6",
+    "20",
+    "5",
+    "10"
+)
+
+const Atay = new Cat (
+    "pet",
+    "undefined",
+    "violet",
+    "исправьте оценку пожалуйста",
+    168,
+    46,
+    5
+)
+
+//console.log(Atay, Tom);
+
+//console.log(Tom);
+    
 
 
 
